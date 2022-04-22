@@ -7,76 +7,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="mirzo, cv, resume">
     <meta name="description" content="Это сайт - резюме Мирзо Хидирова">
+    <link rel="stylesheet" href="styles.css">
     <title>Khidirov Mirzo, resume</title>
 </head>
 
 <body>
-    <img src="Avatar.jpg" alt="Мирзо Хидиров" width="150">
+    <div class="container">
+        <div class="info">
+            <img src="Avatar.jpg" alt="Мирзо Хидиров" class="avatar">
+            <div class="info-text">
 
-    <h1>Мирзо Хидиров </h1>
-    <p>Я работаю инженером - технологом сухих строительных смесей. <br><em>Люблю свою работу и программировать.</em>
-    </p>
-    <h4>Список социальных сетей:</h4>
-    <a href="https://www.youtube.com/channel/UC8KOoUxaC9b9pm6gdABp6jA" target="_blank">YouTube</a>
-    <p>
-        <h2>Мои хобби</h2>
-        <ol>
-            <li>Изучать программирование</li>
-            <li>Путешествия</li>
-            <li>Делать деревянные игрушки</li>
-            <li>Утренний бег</li>
-        </ol>
-    </p>
-    <h2>Опыт работы</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Компания</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Таджикский Алюминиевый завод</td>
-                <td>Инженер-технолог</td>
-                <td>1994-1996</td>
-            </tr>
-            <tr>
-                <td>Таджикский Алюминиевый завод</td>
-                <td>Инженер-программист</td>
-                <td>1996-2008</td>
-            </tr>
-            <tr>
-                <td>АВТОТОР, г. Калининград</td>
-                <td>Инженер-технолог по окраске кузовов</td>
-                <td>2008-2016</td>
-            </tr>
-            <tr>
-                <td>Деловая Русь, г. Калининград</td>
-                <td>Инженер-технолог сухих строительных смесей</td>
-                <td>2016-Н.В.</td>
-            </tr>
-        </tbody>
-    </table>
-    <h2>Связаться со мной</h2>
+                <h1>Хидиров Мирзо Алиевич </h1>
+                <h2>Образование:</h2>
+                <p>1987-1993 Высшее - Ивановский химико-технологический институт. Специальность по диплому: химическая технология тугоплавких неметаллических и силикатных материалов, инженер химик-технолог.</p>
+                <!-- <p>Я работаю инженером - технологом сухих строительных смесей. <br><em>Люблю свою работу и программировать.</em>
+                </p>
+                <h4>Список социальных сетей:</h4>
+                <a href="https://www.youtube.com/channel/UC8KOoUxaC9b9pm6gdABp6jA" target="_blank">YouTube</a> -->
 
-    <form action="/">
-        <div>
-            <label for="name">Ваше имя</label>
-            <input type="text" id="name" placeholder="Введите имя">
+            </div>
         </div>
-        <div>
-            <label for="email">Ваше email:</label>
-            <input type="email" id="email" placeholder="Введите email">
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Таджикский Алюминиевый завод</td>
+                        <td>Инженер-технолог</td>
+                        <td>1994-1996</td>
+                    </tr>
+                    <tr>
+                        <td>Таджикский Алюминиевый завод</td>
+                        <td>Инженер-программист</td>
+                        <td>1996-2008</td>
+                    </tr>
+                    <tr>
+                        <td>АВТОТОР, г. Калининград</td>
+                        <td>Инженер-технолог по окраске кузовов</td>
+                        <td>2008-2016</td>
+                    </tr>
+                    <tr>
+                        <td>Деловая Русь, г. Калининград</td>
+                        <td>Инженер-технолог сухих строительных смесей</td>
+                        <td>2016-Н.В.</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div>
-            <label for="massage">Ваше Сообщени:</label>
-            <br>
-            <textarea id="massage" cols="20" rows="5" placeholder="Введте сообщение..."></textarea>
+
+        <div class="card bg-red">
+            <h2>Дополнительные курсы</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Организация</th>
+                        <th>Курс</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>УЗГОССТАНДАРТ, Ташкент</td>
+                        <td>Сертификация продукции в промышленности</td>
+                        <td>1994</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Бюро технологий", Калининград</td>
+                        <td> Конфигурирование в системе 1С: Предприятие 8.1 </td>
+                        <td> 2008 </td>
+                    </tr>
+                    <tr>
+                        <td>Фирма Sikkes, Варшава</td>
+                        <td>Технология окраски автомобилей
+                        </td>
+                        <td>2012</td>
+                    </tr>
+                    <tr>
+                        <td>Государственный архитектурно-строительный университет, Санкт-Петербург</td>
+                        <td>Современный уровень науки и техники в области сухих строительных смесей</td>
+                        <td>2016</td>
+                    </tr>
+                    <tr>
+                        <td>Result School</td>
+                        <td>HTML & CSS</td>
+                        <td>2022</td>
+                    </tr>
+
+                </tbody>
+            </table>
         </div>
-        <input type="submit" value="Отправить!">
-    </form>
+
+        <div class="card bg-yellow">
+            <h2>Знание языков</h2>
+            <ul class="link-list">
+                <li>
+                    русский, узбекский, таджикский, английский(не нуждаюсь в услугах переводчика)
+                </li>
+
+            </ul>
+        </div>
+        <div class="card bg-red">
+            <h2>Личные данные</h2>
+            <ul class="link-list">
+                <li>
+                    Адрес проживания: г. Калининград.
+                </li>
+                <li>
+                    Контактный телефон: +79622526420, +79992558324.
+                </li>
+                <li>
+                    Электронная почта: mirzo200765@mail.ru
+                </li>
+                <li>
+                    Гражданство: Российская Федерация.
+                </li>
+
+            </ul>
+        </div>
+
+
+
+
+
+    </div>
 
 </body>
 
