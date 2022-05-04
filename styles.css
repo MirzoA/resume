@@ -131,7 +131,12 @@ a:visited {
 /* 
  */
 
+.table th {
+    border-bottom: 1px solid #ccc;
+}
+
 .table td {
+    border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
 }
 
